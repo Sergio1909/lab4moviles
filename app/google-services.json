@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "630156334207",
+    "firebase_url": "https://laboratorio-4-moviles.firebaseio.com",
+    "project_id": "laboratorio-4-moviles",
+    "storage_bucket": "laboratorio-4-moviles.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630156334207:android:8b70a05f031580e2bfdb4a",
+        "android_client_info": {
+          "package_name": "com.example.laboratorio4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "630156334207-j2nl62ifvkfarjr14rkhl975s4ci6jui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaNrEN5smWQnEuKBwZqB8IazCsjENZ0AI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "630156334207-j2nl62ifvkfarjr14rkhl975s4ci6jui.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
