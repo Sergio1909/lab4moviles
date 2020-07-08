@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Laboratorio4</string>
+    <string name="este_es_un_mensaje">Este es un mensaje</string>
 </resources>
