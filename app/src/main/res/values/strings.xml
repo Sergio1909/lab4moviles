@@ -5,5 +5,12 @@
     <string name="msj">msj</string>
     <string name="imagen">Imagen</string>
     <string name="todo">TODO</string>
+    <string name="subir_foto">Subir foto</string>
+    <string name="a_adir_foto">añadir foto</string>
+    <string name="subir_foto">Subir foto</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="introduzca_descripcion">Introduzca descripcion</string>
+    <string name="subir_foto">Subir foto</string>
+    <string name="previsualizacion">Previsualizacion</string>
 
 </resources>
