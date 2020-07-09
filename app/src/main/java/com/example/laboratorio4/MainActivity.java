@@ -47,7 +47,6 @@ public class MainActivity extends AppCompatActivity {
 
         mfirebaseauth = FirebaseAuth.getInstance();
         FacebookSdk.sdkInitialize(getApplicationContext());
-
         textViewUser = findViewById(R.id.textView);
         mlogo= findViewById(R.id.imageView2);
         loginButton=findViewById(R.id.login_button);
