@@ -110,7 +110,7 @@ public class MainActivity3 extends AppCompatActivity {
 
         if (FilePathUri != null) {
 
-            progressDialog.setTitle("Image is Uploading...");
+            progressDialog.setTitle("Subiendo imagen...");
             progressDialog.show();
             StorageReference storageReference2 = storageReference.child(System.currentTimeMillis() + "." + GetFileExtension(FilePathUri));
             storageReference2.putFile(FilePathUri)
@@ -120,7 +120,7 @@ public class MainActivity3 extends AppCompatActivity {
 
                             String TempImageName = txtdata.getText().toString().trim();
                             progressDialog.dismiss();
-                            Toast.makeText(getApplicationContext(), "Image Uploaded Successfully ", Toast.LENGTH_LONG).show();
+                            Toast.makeText(getApplicationContext(), "Imagen subida exitosamente ", Toast.LENGTH_LONG).show();
                             @SuppressWarnings("VisibleForTests")
                             uploadinfo imageUploadInfo = new uploadinfo(TempImageName, taskSnapshot.getUploadSessionUri().toString());
                             String ImageUploadId = databaseReference.push().getKey();
@@ -130,7 +130,7 @@ public class MainActivity3 extends AppCompatActivity {
         }
         else {
 
-            Toast.makeText(MainActivity3.this, "Please Select Image or Add Image Name", Toast.LENGTH_LONG).show();
+            Toast.makeText(MainActivity3.this, "Por favor seleccione una imagen o añada un nombre", Toast.LENGTH_LONG).show();
 
         }
     }
