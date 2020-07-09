@@ -2,5 +2,8 @@
     <string name="app_name">Laboratorio4</string>
     <string name="facebook_app_id">4024262317643710</string>
     <string name="fb_login_protocol_scheme">fb4024262317643710</string>
+    <string name="msj">msj</string>
+    <string name="imagen">Imagen</string>
+    <string name="todo">TODO</string>
 
 </resources>
